@@ -1,0 +1,24 @@
+{
+  "name": "modbus-json-server",
+  "version": "0.1",
+  "description": "JSON-TCP server for ModBus RTU",
+  "main": "node main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "test.js"
+  },
+  "author": "mrcamilletti",
+  "license": "ISC",
+  "dependencies": {
+    "modbus-serial": "^8.0.1",
+    "npm": "latest",
+    "serialport": "latest"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "modbus",
+    "serial",
+    "json",
+    "tcp"
+  ]
+}
