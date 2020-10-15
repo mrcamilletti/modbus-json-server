@@ -21,8 +21,8 @@ Using from and to:
 consulta = {
     id: <unit_id> | [<unit_ids>],
     read: 'coil' | 'discrete' | 'input' | 'holding'
-    from: <start_address>
-    to: <quantity>
+    from: <from_address>
+    to: <to_address>
 }
 ```
 
