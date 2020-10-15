@@ -1,0 +1,14 @@
+[Unit]
+Description=ModBus Serial to TCP (JSON) Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/workspace/modbus-manager
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+User=pi
+Environment=PORT=5502
+Environment=SERIAL=/dev/ttyRS485
+
+[Install]
+WantedBy=multi-user.target
